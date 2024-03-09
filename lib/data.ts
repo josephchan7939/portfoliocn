@@ -66,7 +66,7 @@ export const projectsData = [
   {
     title: "500PX图片交易站",
     description:
-      "500px 是一个图片交易平台,主要为摄影师和对图片质量有较高要求的用户服务.我参与了前端和后端的整个开发工程。",
+      "500px 是一个图片交易平台,主要为摄影师和对图片质量有较高要求的用户服务.我参与了前端和后端的整个开发过程。",
       
     tags: ["React", "Express.js", "Node.js", "Tailwind", "Redis","MongoDB"],
   //  imageUrl: ["500px_index-1_jln7xp.png","500px_index-2_egyu5i.png","500px_index-3_hqtb0k.png"],
