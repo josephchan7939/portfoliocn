@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("关于我");
 
   return (
     <motion.section
@@ -17,32 +17,17 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>关于我</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Information Technology</span>,I started working in software development.
-        After several years of working in Java and C++ development,
-         I discovered my passion for web development. I learned{" "}
-        <span className="font-medium">full-stack web development and
-        devote myself to web development for above five years</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-           Node.js,Express,NestJS,React,Nextjs and Mysql,MongoDB
-        </span>
-        . I am also familiar with TypeScript and TypeORM. I am always looking to
-        learn new technologies. 
+        大学主修信息系统及信息技术专业,毕业之后主要从事软件开发领域{" "},在几年的Java和C++开发工作中,
+        我发现了自己对WEB应用开发的强烈兴趣。{" "}于是我自学了JS和TS开发相关内容,并开始从事相关全栈开发
+        工作项目达5年之久。{" "}
+        我喜欢技术挑战,喜欢分析并解决问题的快乐。{" "}
+        我熟悉的主要技术栈包括<span className=" font-medium">Node.js,Express,NestJS,React,Nextjs</span> 以及 <span className=" font-medium">Mysql,MongoDB</span>等,我也熟悉TypeScript和TypeORM.
+        {" "}我非常享受学习新的技术。
+    
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and Reading. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. 
-      </p>
     </motion.section>
   );
 }

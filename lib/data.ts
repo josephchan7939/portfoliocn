@@ -8,19 +8,19 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
-    name: "Home",
+    name: "首页",
     hash: "#home",
   },
   {
-    name: "About",
+    name: "关于我",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "案例",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "技术栈",
     hash: "#skills",
   },
   /**
@@ -30,7 +30,7 @@ export const links = [
   },
    */
   {
-    name: "Contact",
+    name: "联系方式",
     hash: "#contact",
   },
 ] as const;
@@ -64,9 +64,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "500PX Picshare",
+    title: "500PX图片交易站",
     description:
-      "I worked as a full-stack developer on this project for 2 years.Users can trade pics on the platform.I was involved in the whole project from frontend to backend.",
+      "500px 是一个图片交易平台,主要为摄影师和对图片质量有较高要求的用户服务.我参与了前端和后端的整个开发工程。",
       
     tags: ["React", "Express.js", "Node.js", "Tailwind", "Redis","MongoDB"],
   //  imageUrl: ["500px_index-1_jln7xp.png","500px_index-2_egyu5i.png","500px_index-3_hqtb0k.png"],
@@ -84,7 +84,7 @@ export const projectsData = [
   {
     title: "ADOP Ecommerce",
     description:
-      "Network Equipments ecommerce website. It is a freelancer project which was built with shopify by me. ",
+      "这是一个网络设备服务商的电商网站,主要销售网络设备,我用shopify构建。",
     tags: ["Shopify","Mysql"],
     imageUrls: ["https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773077/adop_index-1_yxn6pt.jpg",
     "https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773078/adop_index-2_jlgq1g.png",
@@ -94,7 +94,7 @@ export const projectsData = [
   {
     title: "BLND New media Art Courses",
     description:
-      "A public web app for selling new media art courses. It has features like online courses,offline courses and blog articles.It was a freelancer project.I primarily work on the backend api part.",
+      "这是一个新媒体艺术课程销售网站,主要包括在线课程，线下讲座以及博客部分,这是一个外包项目,我主要负责后端API和数据库部分。",
     tags: ["React", "Next.js", "Tailwind","Express.js","Nestjs", "Mysql"],
     imageUrls: ["https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773082/blnd_index-1_b90qmp.jpg",
     "https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773083/blnd_index-2_cukrrd.jpg",
@@ -104,7 +104,7 @@ export const projectsData = [
   {
     title: "Famulus Company Site",
     description:
-      "A finance consultant company website. I work as a full stack developer on it.",
+      "财务顾问公司官方网站,外包项目,由我全栈开发。",
     tags: ["React", "Next.js",  "Tailwind", "Nestjs","Mysql"],
     imageUrls: ["https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773087/Famulus_index-1_nozza7.jpg",
     "https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773088/Famulus_index-2_ihxxmp.jpg",
@@ -114,7 +114,7 @@ export const projectsData = [
   {
     title: "Glasses gallery Ecommerce",
     description:
-      "A public web app for glasses ecommerce which was built with Magento. ",
+      "眼镜销售电商网站,主要用magento构建。",
     tags: ["Magento",  "Mysql"],
     imageUrls: ["https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773089/glassesgallery_index-1_jfiadq.jpg",
     "https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773090/glassesgallery_index-2_tdddux.jpg",
@@ -124,7 +124,7 @@ export const projectsData = [
   {
     title: "Nissispace online courses",
     description:
-      "A online education web app which includes website and mobile app. i was primarily work on the backend,such as api and database",
+      "在线教育平台,为老师在线开课提供服务,我主要负责后端API和数据库部分开发工作。",
     tags: ["React", "React Native","Next.js", "Tailwind", "Nodejs","Nestjs","Redis","Mysql"],
     imageUrls: ["https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773097/nissispace_index-1_fnvt9v.png",
     "https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773098/nissispace_index-2_jarkyr.png",
@@ -135,7 +135,7 @@ export const projectsData = [
   {
     title: "Roomdeal Hotel Rooms Trade",
     description:
-      "User can trade Hotel rooms on the platform. I was participated in the design and development of the app's underlying platform such as api and database.",
+      "酒店房间交易平台,卖家可以出售自己用不到的酒店房间,买家以优惠购买,我主要负责后端API和数据库部分开发工作。",
     tags: ["React", "Next.js",  "Tailwind", "Nodejs","Nestjs","Mysql"],
     imageUrls: ["https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773101/roomdeal_index-1_y1zuet.jpg",
     "https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773102/roomdeal_index-2_sqecp8.jpg",

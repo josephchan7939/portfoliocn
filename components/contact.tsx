@@ -10,7 +10,7 @@ import toast, { Toaster } from "react-hot-toast";
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {
-  const { ref } = useSectionInView("Contact");
+  const { ref } = useSectionInView("联系方式");
 
   const formRef = useRef<HTMLFormElement>(null);
 
@@ -54,14 +54,14 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>联系我</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
+        您可以通过如下邮件联系我：{" "}
         <a className="underline" href="mailto:josephchan7939@gmail.com">
         josephchan7939@gmail.com
         </a>{" "}
-        or through this form.
+        或者也可以填写下面表格：
       </p>
 
       <form
@@ -86,12 +86,12 @@ export default function Contact() {
           type="email"
           required
           maxLength={500}
-          placeholder="Your email"
+          placeholder="您的电邮"
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="user_message"
-          placeholder="Your message"
+          placeholder="输入内容"
           required
           maxLength={5000}
         />

@@ -25,7 +25,7 @@ export function CarouselPlugin(
     return (
       <Carousel
         plugins={[plugin.current]}
-        className=" w-[95%] "
+        className=" w-full "
         opts={{loop:true}}
       >
             <CarouselContent>
@@ -44,7 +44,7 @@ export function CarouselPlugin(
                                // sizes="500px"
                                 className="block rounded-t-lg shadow-2xl
          transition 
-         group-hover:scale-[1.04] w-fit object-contain"
+         group-hover:scale-[1.04] w-full object-contain"
 
                             />
                             

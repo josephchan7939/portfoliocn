@@ -37,7 +37,7 @@ export default function Project({
       className="group mb-3 sm:mb-8 last:mb-0"
     >
       <section className="bg-gray-100  max-w-[50rem] border h-fit border-black/5 rounded-lg flex flex-col items-center overflow-hidden sm:pr-8  hover:bg-gray-200 transition  dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
-      <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10  flex flex-col items-center gap-3">
+      <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 w-full flex flex-col items-center gap-3">
       <CarouselPlugin imgUrls ={imageUrls}/>
            
        <Separator className=" h-2 bg-stone-800 dark:bg-slate-200 w-full"/>
@@ -66,7 +66,7 @@ export default function Project({
         }}
       >
          <Link href={sitelink} rel="noopener noreferrer" target="_blank" className="group bg-black/[0.7] text-white my-4 rounded-md px-3 py-3 flex items-center gap-2  outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"> 
-         View Project         
+         项目详情         
          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
          </Link>
          </motion.div>

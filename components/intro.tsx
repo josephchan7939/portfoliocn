@@ -12,7 +12,7 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 //import { CldImage } from 'next-cloudinary';
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.5);
+  const { ref } = useSectionInView("关于我", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
@@ -64,10 +64,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Joseph chan.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">5 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. 
+        <span className="font-bold">我是陈重喜,</span> 我是一个具有<span className="font-bold">5年</span>
+        开发经验的{" "}
+        <span className="font-bold">全栈工程师</span>.{" "} 我非常喜欢创建网站和应用项目.{" "} 
+         我学过很多语言,包括Java,C++等,主要聚焦在Javascript和Typescript及相关框架开发.
       </motion.h1>
 
       <motion.div
@@ -82,11 +82,11 @@ export default function Intro() {
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
-            setActiveSection("Contact");
+            setActiveSection("联系方式");
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          联系我{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
         {/*
