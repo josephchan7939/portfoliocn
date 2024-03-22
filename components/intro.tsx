@@ -64,7 +64,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">我是陈重喜,</span> 我是一个具有<span className="font-bold">5年</span>
+        <span className="font-bold">我是陈重喜,</span> 我是一个具有<span className="font-bold">4年</span>
         开发经验的{" "}
         <span className="font-bold">全栈工程师</span>.{" "} 我非常喜欢创建网站和应用项目.{" "} 
          我学过很多语言,包括Java,C++等,主要聚焦在Javascript和Typescript及相关框架开发.

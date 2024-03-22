@@ -114,12 +114,12 @@ export const projectsData = [
   {
     title: "Glasses gallery Ecommerce",
     description:
-      "眼镜销售电商网站,主要用magento构建。",
-    tags: ["Magento",  "Mysql"],
+      "眼镜销售电商网站,主要用Nextjs,React和Nodejs,Nestjs构建,我主要负责后端数据库和API部分。",
+    tags: ["React","NextJS","Nodejs","Nestjs", "Mysql"],
     imageUrls: ["https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773089/glassesgallery_index-1_jfiadq.jpg",
     "https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773090/glassesgallery_index-2_tdddux.jpg",
     "https://res.cloudinary.com/dvhoywgd8/image/upload/v1709773091/glassesgallery_index-3_dgnfrp.png"],
-    sitelink:'https://www.glassesgallery.com/'
+    sitelink:''
   },  
   {
     title: "Nissispace online courses",
